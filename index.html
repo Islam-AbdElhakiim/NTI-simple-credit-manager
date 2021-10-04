@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+  <title>Credit app</title>
+</head>
+<body>
+  <div class="container my-5">
+    <form id="addUserForm">
+      <div class="mb-3">
+        <input type="hidden" id="id">
+        <label for="userName" class="form-label">Client Name : </label>
+        <input type="text" class="form-control" id="userName" aria-describedby="emailHelp">
+        
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Credit Balanace :</label>
+        <input type="numbers" class="form-control" id="userBalance">
+      </div>      
+      <button id="addUser" class="btn btn-success">Add User</button>
+    </form>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
